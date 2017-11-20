@@ -1,6 +1,10 @@
 @charset "UTF-8";
-section{
-  display: block;
+label{
+  display: inline-block;
+  width: 200px;
+}
+label#ask{
+  display: inline;
 }
 
 form{
@@ -27,7 +31,8 @@ fieldset{
   margin: 20px;
 }
 fieldset#sexo{
-  width: 150px;
+  width: 250px;
+  margin-left: 100px;
 }
 fieldset#usuario{
   background: url("../img/icone-contato.png") no-repeat 95% 95%;
