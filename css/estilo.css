@@ -194,7 +194,13 @@ aside#lateral h2{
   font-size: 13pt;
   color: #ffffff;
   padding: 5px;
-
+}
+video.movie{
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:350px;
 }
 footer#rodape{
   clear: both;
